@@ -1,0 +1,8 @@
+{
+ "sample_db": {
+  "db_name": "sample_db",
+  "port": 3306,
+  "user_name": "root",
+  "pass": "root"
+ }
+}
