@@ -14,7 +14,7 @@ def check_res_status(url):
         print('Service is abnormal')
 
 def main():
-    # 秒に一度サービスの正常性監視を行う
+    # ３秒に一度サービスの正常性監視を行う
     while(True):
         check_res_status('https://ushizawa-portfolio.com')
         time.sleep(3)
